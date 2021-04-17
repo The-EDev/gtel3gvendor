@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtel3g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/gtel3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/gtel3g/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+    vendor/samsung/gtel3g/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/samsung/gtel3g/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
     vendor/samsung/gtel3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/gtel3g/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
