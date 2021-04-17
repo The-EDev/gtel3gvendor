@@ -16,15 +16,47 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/gtel3g/proprietary/vendor/firmware/BCM43430A1_001.002.009.0022.0000_Samsung_TabE_SM-T561_TEST_ONLY.hcd:system/vendor/BCM43430A1_001.002.009.0022.0000_Samsung_TabE_SM-T561_TEST_ONLY.hcd \
+    vendor/samsung/gtel3g/proprietary/vendor/firmware/vbc_eq:system/vendor/firmware/vbc_eq \
+    vendor/samsung/gtel3g/proprietary/bin/gpsd:system/bin/gpsd \
+    vendor/samsung/gtel3g/proprietary/bin/gps.cer:system/bin/gps.cer \
+    vendor/samsung/gtel3g/proprietary/bin/macloader:system/bin/macloader \
+    vendor/samsung/gtel3g/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/gtel3g/proprietary/bin/modemd:system/bin/modemd \
+    vendor/samsung/gtel3g/proprietary/bin/nvitemd:system/bin/nvitemd \
+    vendor/samsung/gtel3g/proprietary/bin/phoneserver:system/bin/phoneserver \
+    vendor/samsung/gtel3g/proprietary/bin/refnotify:system/bin/refnotify \
+    vendor/samsung/gtel3g/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/gtel3g/proprietary/bin/engpc:system/bin/engpc \
+    vendor/samsung/gtel3g/proprietary/bin/ext_data.sh:system/bin/ext_data.sh \
+    vendor/samsung/gtel3g/proprietary/bin/ext_kill.sh:system/bin/ext_kill.sh \
+    vendor/samsung/gtel3g/proprietary/bin/ext_symlink.sh:system/bin/ext_symlink.sh \
     vendor/samsung/gtel3g/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/gtel3g/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/gtel3g/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/gtel3g/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/gtel3g/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/gtel3g/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+    vendor/samsung/gtel3g/proprietary/lib/libsprd_agps_agent.so:system/lib/libsprd_agps_agent.so \
+    vendor/samsung/gtel3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    vendor/samsung/gtel3g/proprietary/lib/libatchannel.so:system/lib/libatchannel.so \
+    vendor/samsung/gtel3g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gtel3g/proprietary/lib/libboost.so:system/lib/libboost.so \
     vendor/samsung/gtel3g/proprietary/lib/libisp.so:system/lib/libisp.so \
     vendor/samsung/gtel3g/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/samsung/gtel3g/proprietary/lib/libuvdenoise.so:system/lib/libuvdenoise.so \
+    vendor/samsung/gtel3g/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/gtel3g/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    vendor/samsung/gtel3g/proprietary/lib/libreference-ril_sp.so:system/lib/libreference-ril_sp.so \
+    vendor/samsung/gtel3g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/gtel3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_aacdec_sprd.so:system/lib/libomx_aacdec_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_mp3dec_sprd.so:system/lib/libomx_mp3dec_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_avcdec_hw_sprd.so:system/lib/libomx_avcdec_hw_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_avcenc_hw_sprd.so:system/lib/libomx_avcenc_hw_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_vpxdec_hw_sprd.so:system/lib/libomx_vpxdec_hw_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_m4vh263dec_hw_sprd.so:system/lib/libomx_m4vh263dec_hw_sprd.so \
+    vendor/samsung/gtel3g/proprietary/lib/libomx_m4vh263enc_hw_sprd.so:system/lib/libomx_m4vh263enc_hw_sprd.so \
     vendor/samsung/gtel3g/proprietary/lib/hw/camera.sc8830.so:system/lib/hw/camera.sc8830.so \
     vendor/samsung/gtel3g/proprietary/lib/hw/sensors.sc8830.so:system/lib/hw/sensors.sc8830.so \
+    vendor/samsung/gtel3g/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
